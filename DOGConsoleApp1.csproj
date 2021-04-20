@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExceptionHelper\ExceptionHelper.csproj" />
+    <ProjectReference Include="..\LoggingHelper\LoggingHelper.csproj" />
+  </ItemGroup>
+
+</Project>
